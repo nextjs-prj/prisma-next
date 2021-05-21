@@ -1,0 +1,40 @@
+.foodviewContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.foodview {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  width: 900px;
+}
+
+.foodviewImage {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  padding-right: 15px;
+  flex: 5;
+}
+
+.foodviewDetails {
+  font-family: system-ui;
+  padding-left: 15px;
+  flex: 7;
+}
+
+.foodviewName h1 {
+  margin-top: 0;
+
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 10px 0;
+}
+
+.foodviewDescIngreCnt h2 {
+  border-bottom: 1px solid;
+  padding-bottom: 4px;
+}

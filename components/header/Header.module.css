@@ -1,0 +1,12 @@
+.header {
+  height: 40px;
+  background-color: rgb(243 136 5);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-family: sans-serif;
+}
+.headerName {
+  font-size: 1.8em;
+}
