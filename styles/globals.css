@@ -129,11 +129,6 @@ input:active {
   color: rgb(51, 55, 64);
 }
 
-.content {
-  /*display: flex;
-  flex-wrap: wrap;*/
-}
-
 .inputField {
   margin: 3px 7px;
   /*flex: 1 40%;*/
