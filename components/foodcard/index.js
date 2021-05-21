@@ -14,7 +14,7 @@ export default function FoodCard({ food }) {
             <h3>{food.name}</h3>
           </div>
           <div className={styles.foodCardPrice}>
-            <span>Price($)</span>
+            <span>Price(💵)</span>
             <span>{food.price}</span>
           </div>
           <div className={styles.foodCardActive}>

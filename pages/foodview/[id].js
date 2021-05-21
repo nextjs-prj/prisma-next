@@ -46,7 +46,7 @@ export default function FoodView(props) {
             </span>
           </div>
           <div style={{ padding: "5px 0" }}>
-            <span> Price($): {food?.price}</span>
+            <span> Price(💵): {food?.price}</span>
           </div>
           <div className={styles.foodviewDescIngreCnt}>
             <h2>Ingredients</h2>

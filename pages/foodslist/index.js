@@ -9,6 +9,7 @@ const prisma = new PrismaClient();
 function FoodList(props) {
   const [showAddFoodModal, setShowAddFoodModal] = useState(false);
   const foods = props.foods;
+
   return (
     <div className={styles.foodlistCnt}>
       <div className={styles.foodlistBreadcrumb}>
