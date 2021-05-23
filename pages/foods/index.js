@@ -1,4 +1,4 @@
-import styles from "./FoodsList.module.css";
+import styles from "./Foods.module.css";
 import FoodCard from "./../../components/foodcard";
 import { PrismaClient } from "@prisma/client";
 import AddFood from "../../components/addfood";
@@ -6,13 +6,13 @@ import { useState } from "react";
 
 const prisma = new PrismaClient();
 
-function FoodList(props) {
+function Foods(props) {
   const [showAddFoodModal, setShowAddFoodModal] = useState(false);
   const foods = props.foods;
 
   return (
-    <div className={styles.foodlistCnt}>
-      <div className={styles.foodlistBreadcrumb}>
+    <div className={styles.foodsCnt}>
+      <div className={styles.foodsBreadcrumb}>
         <div>
           <h2>Recipes 🥗🥘🍱🍛</h2>
         </div>
@@ -30,7 +30,7 @@ function FoodList(props) {
           </button>
         </div>
       </div>
-      <div className={styles.foodlist}>
+      <div className={styles.foods}>
         {foods?.map((food, i) => (
           <FoodCard food={food} key={i} />
         ))}
@@ -51,4 +51,4 @@ export async function getServerSideProps() {
     },
   };
 }
-export default FoodList;
+export default Foods;

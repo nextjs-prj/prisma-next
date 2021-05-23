@@ -1,11 +1,11 @@
-.foodlist {
+.foods {
   display: flex;
   color: grey;
   padding: 15px;
   flex-wrap: wrap;
   padding-top: 0;
 }
-.foodlistBreadcrumb {
+.foodsBreadcrumb {
   font-family: system-ui;
   display: flex;
   justify-content: space-between;
@@ -14,6 +14,6 @@
   padding-bottom: 0;
   padding-top: 17px;
 }
-.foodlistBreadcrumb h2 {
+.foodsBreadcrumb h2 {
   margin: 0;
 }

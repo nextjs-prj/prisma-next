@@ -3,9 +3,11 @@ import Link from "next/link";
 
 export default function FoodCard({ food }) {
   return (
-    <Link href={`/foodview/${food.id}`}>
+    <Link href={`/food/${food.id}`}>
       <div className={styles.foodCard}>
         <div
+          alt={`Food Image of: ${food?.name}`}
+          aria-label={`Food Image of: ${food?.name}`}
           className={styles.foodCardImg}
           style={{ backgroundImage: `url(${food.imageUrl})` }}
         ></div>
